@@ -14,7 +14,9 @@
   },
   "scripts": {
     "start": "babel src --out-dir dist && node dist/server.js",
-    "test": "mocha --compilers js:babel-core/register './spec/**/*.js'"
+    "test": "mocha --compilers js:babel-core/register './spec/**/*.js'",
+    "lint": "./node_modules/.bin/eslint --quiet .",
+    "fix-lint": "./node_modules/.bin/eslint --quiet --fix ."
   },
   "repository": {
     "type": "git",
