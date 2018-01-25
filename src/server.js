@@ -1,5 +1,5 @@
 import express from 'express';
-
+import pgClient from './database/pg-client';
 const app = express();
 
 app.set('port', 3000);
