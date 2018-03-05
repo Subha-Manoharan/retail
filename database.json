@@ -1,0 +1,4 @@
+{
+  "dev": "postgres://retail:retail@localhost:5432/retail",
+  "sql-file": true
+}
